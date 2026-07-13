@@ -1,0 +1,45 @@
+competition_id,competition,type,country,confederation,flag
+AFCN,Africa Cup of Nations,International,International,afrika,
+L1,Bundesliga,League,Germany,europa,https://flagcdn.com/w160/de.png
+CLQ,Champions League Qualifying,Continental,International,europa,
+GBCS,Community Shield,Other,England,europa,https://flagcdn.com/w160/gb-eng.png
+ECLQ,Conference League Qualifying,Other,International,europa,
+CDR,Copa del Rey,Domestic Cup,Spain,europa,https://flagcdn.com/w160/es.png
+CIT,Coppa Italia,Domestic Cup,Italy,europa,https://flagcdn.com/w160/it.png
+DFB,DFB-Pokal,Domestic Cup,Germany,europa,https://flagcdn.com/w160/de.png
+DKP,Danish Cup,Domestic Cup,Denmark,europa,https://flagcdn.com/w160/dk.png
+DK1,Danish Superliga,League,Denmark,europa,https://flagcdn.com/w160/dk.png
+NL1,Eredivisie,League,Netherlands,europa,https://flagcdn.com/w160/nl.png
+ELQ,Europa League Qualifying,Other,International,europa,
+FAC,FA Cup,Domestic Cup,England,europa,https://flagcdn.com/w160/gb-eng.png
+DFL,Franz Beckenbauer Supercup,Other,Germany,europa,https://flagcdn.com/w160/de.png
+GRP,Greek Cup,Domestic Cup,Greece,europa,https://flagcdn.com/w160/gr.png
+NLSC,Johan Cruijff Schaal,Other,Netherlands,europa,https://flagcdn.com/w160/nl.png
+BE1,Jupiler Pro League,League,Belgium,europa,https://flagcdn.com/w160/be.png
+POBE,Jupiler Pro League Europe Play Offs,Other,Belgium,europa,https://flagcdn.com/w160/be.png
+EJPL,Jupiler Pro League Playoff I,Other,Belgium,europa,https://flagcdn.com/w160/be.png
+BPO4,Jupiler Pro League Relegation Play Offs,Other,Belgium,europa,https://flagcdn.com/w160/be.png
+NLP,KNVB Beker,Domestic Cup,Netherlands,europa,https://flagcdn.com/w160/nl.png
+ES1,LaLiga,League,Spain,europa,https://flagcdn.com/w160/es.png
+PO1,Liga Portugal,League,Portugal,europa,https://flagcdn.com/w160/pt.png
+FR1,Ligue 1,League,France,europa,https://flagcdn.com/w160/fr.png
+GB1,Premier League,League,England,europa,https://flagcdn.com/w160/gb-eng.png
+RUP,Russian Cup,Domestic Cup,Russia,europa,https://flagcdn.com/w160/ru.png
+RU1,Russian Premier League,League,Russia,europa,https://flagcdn.com/w160/ru.png
+RUSS,Russian Super Cup,Other,Russia,europa,https://flagcdn.com/w160/ru.png
+SFA,Scottish FA Cup,Domestic Cup,Scotland,europa,https://flagcdn.com/w160/gb-sct.png
+SC1,Scottish Premiership,League,Scotland,europa,https://flagcdn.com/w160/gb-sct.png
+IT1,Serie A,League,Italy,europa,https://flagcdn.com/w160/it.png
+GR1,Super League Greece,League,Greece,europa,https://flagcdn.com/w160/gr.png
+SUC,Supercopa,Other,Spain,europa,https://flagcdn.com/w160/es.png
+SCI,Supercoppa Italiana,Other,Italy,europa,https://flagcdn.com/w160/it.png
+POSU,Supercup Candido De Oliveira,Other,Portugal,europa,https://flagcdn.com/w160/pt.png
+TR1,Süper Lig,League,Türkiye,europa,https://flagcdn.com/w160/tr.png
+FRCH,Trophee Des Champions,Other,France,europa,https://flagcdn.com/w160/fr.png
+CL,UEFA Champions League,Continental,International,europa,
+EL,UEFA Europa League,Other,International,europa,
+USC,UEFA Super Cup,Continental,International,europa,
+UKRP,Ukrainian Cup,Domestic Cup,Ukraine,europa,https://flagcdn.com/w160/ua.png
+UKR1,Ukrainian Premier League,League,Ukraine,europa,https://flagcdn.com/w160/ua.png
+BESC,Volkswagen Supercup,Other,Belgium,europa,https://flagcdn.com/w160/be.png
+FIWC,World Cup,International,International,fifa,

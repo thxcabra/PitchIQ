@@ -1,0 +1,76 @@
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { color-scheme: dark; }
+  body {
+    @apply bg-pitch-bg text-pitch-text antialiased;
+    background-image:
+      radial-gradient(1200px 600px at 80% -10%, rgba(52, 211, 153, 0.06), transparent 60%),
+      radial-gradient(1000px 500px at 0% 0%, rgba(56, 189, 248, 0.05), transparent 55%);
+    background-attachment: fixed;
+    font-feature-settings: "cv11", "ss01";
+  }
+  /* tabular figures for all data — prevents number jitter in tables/tiles */
+  .tnum { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+  /* monospaced figures for data-heavy numbers (Geist Mono) — technical dashboard feel */
+  .num {
+    font-family: "Geist Mono Variable", ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px theme("colors.pitch.bg"), 0 0 0 4px theme("colors.pitch.accent");
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: #232c40; border-radius: 8px; border: 2px solid transparent; background-clip: padding-box; }
+  ::-webkit-scrollbar-thumb:hover { background: #2c374f; background-clip: padding-box; }
+}
+
+@layer components {
+  .card {
+    @apply bg-pitch-card border border-pitch-line rounded-xl shadow-card;
+  }
+  .btn {
+    @apply inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-pitch-line
+           bg-pitch-card/70 text-pitch-sub text-sm font-medium
+           hover:border-pitch-line2 hover:text-white hover:bg-pitch-card2
+           active:scale-[0.98] transition-all duration-150;
+  }
+  .btn-accent {
+    @apply text-pitch-accent border-pitch-accent/40 bg-pitch-accent/10 hover:bg-pitch-accent/20;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold tracking-wide;
+  }
+  .input {
+    @apply w-full bg-pitch-bg2 border border-pitch-line rounded-lg px-3.5 py-2.5 text-pitch-text
+           outline-none transition-colors placeholder:text-pitch-muted
+           focus:border-pitch-accent/60 focus:bg-pitch-card;
+  }
+  select.input { @apply cursor-pointer pr-8; }
+  .skeleton {
+    @apply relative overflow-hidden bg-pitch-card2 rounded-lg;
+  }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0 -translate-x-full;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+    animation: shimmer 1.4s infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

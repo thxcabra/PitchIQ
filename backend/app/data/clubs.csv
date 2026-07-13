@@ -1,0 +1,344 @@
+club_id,name,logo,competition,country,squad_value,squad_size,avg_age,foreigners_number,stadium,stadium_seats,coach
+10004,Paris FC,https://tmssl.akamaized.net/images/wappen/head/10004.png,Ligue 1,France,,27,27.2,14,Stade Jean Bouin,19904,Stéphane Gilli
+1003,Leicester City,https://tmssl.akamaized.net/images/wappen/head/1003.png,Premier League,England,,29,25.9,17,King Power Stadium,32259,Steve Cooper
+1005,US Lecce,https://tmssl.akamaized.net/images/wappen/head/1005.png,Serie A,Italy,,39,23.8,36,Ettore Giardiniero,31559,Eusebio Di Francesco
+1010,Watford FC,https://tmssl.akamaized.net/images/wappen/head/1010.png,Premier League,England,,30,26.3,24,Vicarage Road,21577,
+1025,Bologna Football Club 1909,https://tmssl.akamaized.net/images/wappen/head/1025.png,Serie A,Italy,,27,27.4,17,Stadio Renato Dall’Ara,36462,
+1031,Luton Town,https://tmssl.akamaized.net/images/wappen/head/1031.png,Premier League,England,,30,26.1,16,Kenilworth Road,11850,
+1039,Queens Park Rangers,https://tmssl.akamaized.net/images/wappen/head/1039.png,Premier League,England,,26,25.9,15,Loftus Road Stadium,18360,
+1041,Olympique Lyon,https://tmssl.akamaized.net/images/wappen/head/1041.png,Ligue 1,France,,34,24.7,25,Groupama Stadium,59186,Paulo Fonseca
+1047,Como 1907,https://tmssl.akamaized.net/images/wappen/head/1047.png,Serie A,Italy,,40,25.6,32,Giuseppe Sinigaglia,12039,Cesc Fàbregas
+10484,Kasimpasa,https://tmssl.akamaized.net/images/wappen/head/10484.png,Süper Lig,Türkiye,,37,24.6,15,Recep Tayyip Erdoğan Stadyumu,13797,Shota Arveladze
+1049,Valencia CF,https://tmssl.akamaized.net/images/wappen/head/1049.png,LaLiga,Spain,,27,27.7,13,Mestalla,49430,Carlos Corberán
+105,SV Darmstadt 98,https://tmssl.akamaized.net/images/wappen/head/105.png,Bundesliga,Germany,,27,25.6,13,Merck-Stadion am Böllenfalltor,17810,
+1050,Villarreal CF,https://tmssl.akamaized.net/images/wappen/head/1050.png,LaLiga,Spain,,27,25.3,14,La Cerámica,23500,Marcelino
+1053,Aalborg BK,https://tmssl.akamaized.net/images/wappen/head/1053.png,Danish Superliga,Denmark,,26,24.6,14,Aalborg Portland Park,13310,Menno van Dam
+1059,Hammarby IF,https://tmssl.akamaized.net/images/wappen/head/1059.png,Allsvenskan,Sweden,,25,24.2,12,3Arena,30000,
+1063,Viborg FF,https://tmssl.akamaized.net/images/wappen/head/1063.png,Danish Superliga,Denmark,,26,23.5,10,Energi Viborg Arena,9566,Nickolai Lund
+10690,Zorya Lugansk,https://tmssl.akamaized.net/images/wappen/head/10690.png,Ukrainian Premier League,Ukraine,,23,26.3,10,Valeriy Lobanovsky Stadion,16873,Viktor Skrypnyk
+1071,Wigan Athletic,https://tmssl.akamaized.net/images/wappen/head/1071.png,Premier League,England,,26,24.0,8,DW Stadium,25133,
+1075,SC Braga,https://tmssl.akamaized.net/images/wappen/head/1075.png,Liga Portugal,Portugal,,38,24.9,23,Estádio Municipal de Braga,30286,Carlos Vicens
+1082,LOSC Lille,https://tmssl.akamaized.net/images/wappen/head/1082.png,Ligue 1,France,,30,24.4,19,Decathlon Arena-Stade Pierre-Mauroy,50186,Bruno Genesio
+1083,FK Rostov,https://tmssl.akamaized.net/images/wappen/head/1083.png,Russian Premier League,Russia,,29,25.3,8,Rostov Arena,45415,
+1090,AZ Alkmaar,https://tmssl.akamaized.net/images/wappen/head/1090.png,Eredivisie,Netherlands,,31,24.3,11,AFAS Stadion,19500,Maarten Martens
+1091,Panthessalonikios Athlitikos Omilos Konstantinoupoliton,https://tmssl.akamaized.net/images/wappen/head/1091.png,Super League Greece,Greece,,31,28.0,18,Toumba Stadium,28703,
+1096,Royal Antwerp FC,https://tmssl.akamaized.net/images/wappen/head/1096.png,Jupiler Pro League,Belgium,,23,22.7,12,Bosuilstadion,21000,Stef Wils
+11,Arsenal FC,https://tmssl.akamaized.net/images/wappen/head/11.png,Premier League,England,,29,26.2,19,Emirates Stadium,60704,Mikel Arteta
+1100,Sportsklubben Brann,https://tmssl.akamaized.net/images/wappen/head/1100.png,Eliteserien,Norway,,29,25.4,11,Brann Stadion,17500,
+110302,Avs Futebol,https://tmssl.akamaized.net/images/wappen/head/110302.png,Liga Portugal,Portugal,,22,28.6,16,Estádio do Clube Desportivo das Aves,6230,José Mota
+1108,Deportivo Alavés,https://tmssl.akamaized.net/images/wappen/head/1108.png,LaLiga,Spain,,27,27.0,14,Mendizorroza,19840,Eduardo Coudet
+1109,BK Häcken,https://tmssl.akamaized.net/images/wappen/head/1109.png,Allsvenskan,Sweden,,27,26.0,13,Nordic Wellness Arena,6316,
+11127,Ural Yekaterinburg,https://tmssl.akamaized.net/images/wappen/head/11127.png,Russian Premier League,Russia,,30,26.5,11,Yekaterinburg Arena,23000,
+1123,Norwich City,https://tmssl.akamaized.net/images/wappen/head/1123.png,Premier League,England,,25,26.0,17,Carrow Road,27244,
+1124,Fakel Voronezh,https://tmssl.akamaized.net/images/wappen/head/1124.png,Russian Premier League,Russia,,24,27.2,4,Fakel,10052,Igor Cherevchenko
+11282,Alanyaspor,https://tmssl.akamaized.net/images/wappen/head/11282.png,Süper Lig,Türkiye,,28,25.9,13,Alanya Oba Stadyumu,9727,João Pereira
+1132,Burnley FC,https://tmssl.akamaized.net/images/wappen/head/1132.png,Premier League,England,,30,25.9,24,Turf Moor,21994,Scott Parker
+114,Beşiktaş Jimnastik Kulübü,https://tmssl.akamaized.net/images/wappen/head/114.png,Süper Lig,Türkiye,,28,26.2,14,Beşiktaş Park,42684,
+1148,Brentford FC,https://tmssl.akamaized.net/images/wappen/head/1148.png,Premier League,England,,34,25.0,25,Gtech Community Stadium,17250,Keith Andrews
+1158,FC Lorient,https://tmssl.akamaized.net/images/wappen/head/1158.png,Ligue 1,France,,23,25.6,14,Stade du Moustoir,16787,Olivier Pantaloni
+1177,Silkeborg IF,https://tmssl.akamaized.net/images/wappen/head/1177.png,Danish Superliga,Denmark,,24,23.3,6,JYSK Park,10000,Kent Nielsen
+1184,KRC Genk,https://tmssl.akamaized.net/images/wappen/head/1184.png,Jupiler Pro League,Belgium,,28,23.9,16,Cegeka Arena,23718,Thorsten Fink
+1186,Torpedo Moscow,https://tmssl.akamaized.net/images/wappen/head/1186.png,Russian Premier League,Russia,,28,25.6,6,Luzhniki Stadium,81000,
+1191,Falkirk FC,https://tmssl.akamaized.net/images/wappen/head/1191.png,Scottish Premiership,Scotland,,22,26.5,5,The Falkirk Stadium,7937,John McGlynn
+12,Associazione Sportiva Roma,https://tmssl.akamaized.net/images/wappen/head/12.png,Serie A,Italy,,27,26.3,19,Olimpico di Roma,70634,
+120,Kocaelispor,https://tmssl.akamaized.net/images/wappen/head/120.png,Süper Lig,Türkiye,,28,25.8,13,Turka Araç Muayene Kocaeli Stadyumu,34829,Selçuk İnan
+121,FK Dinamo Moskva,https://tmssl.akamaized.net/images/wappen/head/121.png,Russian Premier League,Russia,,30,25.9,13,VTB-Arena,25716,
+122,Sportklub Puntigamer Sturm Graz,https://tmssl.akamaized.net/images/wappen/head/122.png,Bundesliga,Austria,,26,24.3,16,Merkur Arena,16364,
+12321,Girona FC,https://tmssl.akamaized.net/images/wappen/head/12321.png,LaLiga,Spain,,25,25.2,14,Montilivi,14624,Míchel
+1237,Brighton & Hove Albion,https://tmssl.akamaized.net/images/wappen/head/1237.png,Premier League,England,,37,25.0,29,AMEX Stadium,31876,Fabian Hürzeler
+124,Rangers FC,https://tmssl.akamaized.net/images/wappen/head/124.png,Scottish Premiership,Scotland,,30,25.5,21,Ibrox Stadium,50987,Russell Martin
+1241,Livingston FC,https://tmssl.akamaized.net/images/wappen/head/1241.png,Scottish Premiership,Scotland,,26,28.3,13,Home of the Set Fare Arena,9512,David Martindale
+1244,CD Leganés,https://tmssl.akamaized.net/images/wappen/head/1244.png,LaLiga,Spain,,24,27.7,5,Ontime Butarque,14422,Borja Jiménez
+126,Caykur Rizespor,https://tmssl.akamaized.net/images/wappen/head/126.png,Süper Lig,Türkiye,,30,25.4,16,Çaykur Didi,14879,İlhan Palut
+1269,PEC Zwolle,https://tmssl.akamaized.net/images/wappen/head/1269.png,Eredivisie,Netherlands,,21,25.3,7,MAC³PARK stadion,14000,Mirjam Clifford
+127,SC Paderborn 07,https://tmssl.akamaized.net/images/wappen/head/127.png,Bundesliga,Germany,,26,25.7,5,Home Deluxe Arena,15000,
+13,Atlético de Madrid,https://tmssl.akamaized.net/images/wappen/head/13.png,LaLiga,Spain,,26,27.8,17,Riyadh Air Metropolitano,70460,Diego Simeone
+130,Parma Calcio 1913,https://tmssl.akamaized.net/images/wappen/head/130.png,Serie A,Italy,,33,23.8,24,Ennio Tardini,22352,Carlos Cuesta
+1304,Heracles Almelo,https://tmssl.akamaized.net/images/wappen/head/1304.png,Eredivisie,Netherlands,,30,25.2,16,Asito Stadion,12242,Bas Sibum
+131,FC Barcelona,https://tmssl.akamaized.net/images/wappen/head/131.png,LaLiga,Spain,,28,24.3,10,Spotify Camp Nou,62657,Hansi Flick
+132,NAC Breda,https://tmssl.akamaized.net/images/wappen/head/132.png,Eredivisie,Netherlands,,21,26.1,14,Rat Verlegh Stadion,20500,Jo Jansen
+1390,Cagliari Calcio,https://tmssl.akamaized.net/images/wappen/head/1390.png,Serie A,Italy,,32,23.7,18,Unipol Domus,16416,Fabio Pisacane
+14,Austria Vienna,https://tmssl.akamaized.net/images/wappen/head/14.png,Bundesliga,Austria,,31,24.7,10,Generali Arena,15600,Stephan Helm
+141,Galatasaray,https://tmssl.akamaized.net/images/wappen/head/141.png,Süper Lig,Türkiye,,33,25.7,13,Ali Sami Yen Spor Kompleksi RAMS Park,53978,Okan Buruk
+142,Real Zaragoza,https://tmssl.akamaized.net/images/wappen/head/142.png,LaLiga,Spain,,23,26.0,6,La Romareda,33608,
+1420,Angers SCO,https://tmssl.akamaized.net/images/wappen/head/1420.png,Ligue 1,France,,22,24.5,13,Stade Raymond-Kopa,19350,Alexandre Dujeux
+1426,VVV-Venlo,https://tmssl.akamaized.net/images/wappen/head/1426.png,Eredivisie,Netherlands,,28,22.9,7,Covebo Stadion - De Koel,8000,
+1429,Cesena FC,https://tmssl.akamaized.net/images/wappen/head/1429.png,Serie A,Italy,,28,26.0,4,Orogel Stadium - Dino Manuzzi,23860,
+1434,SC Telstar,https://tmssl.akamaized.net/images/wappen/head/1434.png,Eredivisie,Netherlands,,19,24.9,5,BUKO Stadion,5338,Anthony Correia
+1435,Go Ahead Eagles,https://tmssl.akamaized.net/images/wappen/head/1435.png,Eredivisie,Netherlands,,26,25.2,14,De Adelaarshorst,10400,Mike Klein
+144,HNK Rijeka,https://tmssl.akamaized.net/images/wappen/head/144.png,Supersport Hnl,Croatia,,34,24.9,18,Stadion Rujevica,8136,Radomir Djalovic
+1455,FC Dordrecht,https://tmssl.akamaized.net/images/wappen/head/1455.png,Eredivisie,Netherlands,,29,23.3,12,Matchoholic Stadion,4235,
+14589,FC Orenburg,https://tmssl.akamaized.net/images/wappen/head/14589.png,Russian Premier League,Russia,,31,25.3,13,Gazovik,10046,
+1465,GD Estoril Praia,https://tmssl.akamaized.net/images/wappen/head/1465.png,Liga Portugal,Portugal,,26,25.5,15,Estádio António Coimbra da Mota,5094,Ian Cathro
+1467,Göztepe,https://tmssl.akamaized.net/images/wappen/head/1467.png,Süper Lig,Türkiye,,28,24.2,17,Gürsel Aksel Stadyumu,23376,Stanimir Stoilov
+148,Tottenham Hotspur,https://tmssl.akamaized.net/images/wappen/head/148.png,Premier League,England,,37,25.5,28,Tottenham Hotspur Stadium,62850,Thomas Frank
+15,Bayer 04 Leverkusen,https://tmssl.akamaized.net/images/wappen/head/15.png,Bundesliga,Germany,,36,24.5,27,BayArena,30210,Erik ten Hag
+150,Real Betis Balompié,https://tmssl.akamaized.net/images/wappen/head/150.png,LaLiga,Spain,,26,27.5,12,La Cartuja,71374,Manuel Pellegrini
+1519,Dundee United FC,https://tmssl.akamaized.net/images/wappen/head/1519.png,Scottish Premiership,Scotland,,20,24.9,17,Tannadice Park,14223,Jim Goodwin
+152,Samsunspor,https://tmssl.akamaized.net/images/wappen/head/152.png,Süper Lig,Türkiye,,38,24.0,17,Samsun Yeni 19 Mayıs,34303,Thomas Reis
+1531,Elche CF,https://tmssl.akamaized.net/images/wappen/head/1531.png,LaLiga,Spain,,23,25.6,12,Manuel Martínez Valero,31388,Eder Sarabia
+1533,SD Eibar,https://tmssl.akamaized.net/images/wappen/head/1533.png,LaLiga,Spain,,26,28.3,5,Ipurua,8164,
+157,KAA Gent,https://tmssl.akamaized.net/images/wappen/head/157.png,Jupiler Pro League,Belgium,,33,24.3,18,Planet Group arena,20185,Ivan Leko
+159,Red Star Belgrade,https://tmssl.akamaized.net/images/wappen/head/159.png,Super Liga Srbije,Serbia,,37,25.2,22,Rajko Mitić,49167,Vladan Milojevic
+16,Borussia Dortmund,https://tmssl.akamaized.net/images/wappen/head/16.png,Bundesliga,Germany,,29,24.8,16,SIGNAL IDUNA PARK,81365,Niko Kovac
+162,AS Monaco,https://tmssl.akamaized.net/images/wappen/head/162.png,Ligue 1,France,,28,25.4,28,Stade Louis-II,18525,Adi Hütter
+167,FC Augsburg,https://tmssl.akamaized.net/images/wappen/head/167.png,Bundesliga,Germany,,30,25.9,17,WWK ARENA,30660,Sandro Wagner
+16704,FK Krasnodar,https://tmssl.akamaized.net/images/wappen/head/16704.png,Russian Premier League,Russia,,29,26.4,13,OZON Arena,35179,
+16795,Granada CF,https://tmssl.akamaized.net/images/wappen/head/16795.png,LaLiga,Spain,,24,26.1,8,Nuevo Los Cármenes,19336,
+170,Rapid Vienna,https://tmssl.akamaized.net/images/wappen/head/170.png,Bundesliga,Austria,,33,24.5,17,Allianz-Stadion,28345,Peter Stöger
+172,Royal Charleroi Sporting Club,https://tmssl.akamaized.net/images/wappen/head/172.png,Jupiler Pro League,Belgium,,27,24.8,17,Stade du Pays de Charleroi,14968,
+173,Odense Boldklub,https://tmssl.akamaized.net/images/wappen/head/173.png,Danish Superliga,Denmark,,25,24.4,10,Nature Energy Park,15761,Alexander Zorniger
+18,Borussia Mönchengladbach,https://tmssl.akamaized.net/images/wappen/head/18.png,Bundesliga,Germany,,29,26.5,17,Stadion im Borussia-Park,54042,Gerardo Seoane
+180,Southampton FC,https://tmssl.akamaized.net/images/wappen/head/180.png,Premier League,England,,27,26.6,15,St Mary's Stadium,32384,Russell Martin
+18303,FC Oleksandriya,https://tmssl.akamaized.net/images/wappen/head/18303.png,Ukrainian Premier League,Ukraine,,30,25.6,7,KSK Nika,7000,Kyrylo Nesterenko
+190,FC Copenhagen,https://tmssl.akamaized.net/images/wappen/head/190.png,Danish Superliga,Denmark,,29,24.8,21,Parken - connected by 3,38065,Jacob Neestrup
+195,Rosenborg Ballklub,https://tmssl.akamaized.net/images/wappen/head/195.png,Eliteserien,Norway,,29,24.0,9,Lerkendal Stadion,21510,
+19657,Vendsyssel FF,https://tmssl.akamaized.net/images/wappen/head/19657.png,Danish Superliga,Denmark,,24,25.1,7,Nord Energi Arena,10000,
+197,AC Sparta Prague,https://tmssl.akamaized.net/images/wappen/head/197.png,Chance Liga,Czech Republic,,33,25.1,20,epet Arena,18243,Brian Priske
+200,FC Utrecht,https://tmssl.akamaized.net/images/wappen/head/200.png,Eredivisie,Netherlands,,31,23.8,21,"Stadion ""Galgenwaard""",23750,Ron Jans
+202,FC Groningen,https://tmssl.akamaized.net/images/wappen/head/202.png,Eredivisie,Netherlands,,24,23.4,9,Euroborg,22550,Dick Lukkien
+2036,1. Fußballclub Heidenheim 1846,https://tmssl.akamaized.net/images/wappen/head/2036.png,Bundesliga,Germany,,29,26.5,7,Voith-Arena,15000,
+206,Bröndby IF,https://tmssl.akamaized.net/images/wappen/head/206.png,Danish Superliga,Denmark,,30,25.5,13,Brøndby Stadion,28000,Frederik Birk
+2239,US Cremonese,https://tmssl.akamaized.net/images/wappen/head/2239.png,Serie A,Italy,,33,26.0,8,Giovanni Zini,16003,Giovanni Persico
+2282,Club Brugge KV,https://tmssl.akamaized.net/images/wappen/head/2282.png,Jupiler Pro League,Belgium,,27,23.5,16,Jan Breydelstadion,29062,Nicky Hayen
+2288,Swansea City,https://tmssl.akamaized.net/images/wappen/head/2288.png,Premier League,England,,22,24.8,17,Swansea.com Stadium,21088,
+2293,Konyaspor,https://tmssl.akamaized.net/images/wappen/head/2293.png,Süper Lig,Türkiye,,25,26.1,8,Medaş Konya Büyükşehir Stadyumu,41600,Recep Uçar
+23,Eintracht Braunschweig,https://tmssl.akamaized.net/images/wappen/head/23.png,Bundesliga,Germany,,30,25.6,11,EINTRACHT-Stadion,23325,
+2300,Jagiellonia Bialystok,https://tmssl.akamaized.net/images/wappen/head/2300.png,Pko Bp Ekstraklasa,Poland,,24,24.2,12,Chorten Arena,22372,Adrian Siemieniec
+2311,"SK Sigma Olomouc, a.s.",https://tmssl.akamaized.net/images/wappen/head/2311.png,Chance Liga,Czech Republic,,32,25.3,15,Andrův stadion,12451,
+232,FK Spartak Moskva,https://tmssl.akamaized.net/images/wappen/head/232.png,Russian Premier League,Russia,,26,27.1,12,Lukoil Arena,44571,
+234,Feyenoord Rotterdam,https://tmssl.akamaized.net/images/wappen/head/234.png,Eredivisie,Netherlands,,37,25.3,20,"Stadion Feyenoord ""De Kuip""",47500,Robin van Persie
+235,RKC Waalwijk,https://tmssl.akamaized.net/images/wappen/head/235.png,Eredivisie,Netherlands,,31,24.7,9,Mandemakers Stadion,7186,Henk Fraser
+237,RCD Mallorca,https://tmssl.akamaized.net/images/wappen/head/237.png,LaLiga,Spain,,24,27.3,9,Mallorca Son Moix,25736,Jagoba Arrasate
+238,Lech Poznan,https://tmssl.akamaized.net/images/wappen/head/238.png,Pko Bp Ekstraklasa,Poland,,28,25.3,16,Enea Poznań,42837,Niels Frederiksen
+23826,RB Leipzig,https://tmssl.akamaized.net/images/wappen/head/23826.png,Bundesliga,Germany,,33,23.9,22,Red Bull Arena,47069,Ole Werner
+239,Viking Fotballklubb,https://tmssl.akamaized.net/images/wappen/head/239.png,Eliteserien,Norway,,25,26.1,7,Lyse Arena,15900,
+24,Eintracht Frankfurt,https://tmssl.akamaized.net/images/wappen/head/24.png,Bundesliga,Germany,,32,25.1,21,Deutsche Bank Park,59500,Dino Toppmöller
+2410,PFK CSKA Moskva,https://tmssl.akamaized.net/images/wappen/head/2410.png,Russian Premier League,Russia,,28,24.0,11,VEB Arena,30114,
+2420,Vitória Guimarães SC,https://tmssl.akamaized.net/images/wappen/head/2420.png,Liga Portugal,Portugal,,27,24.5,16,Estádio D. Afonso Henriques,30029,Luís Pinto
+2423,CD Santa Clara,https://tmssl.akamaized.net/images/wappen/head/2423.png,Liga Portugal,Portugal,,35,25.3,23,Estádio de São Miguel,12500,Vasco Matos
+2424,Gil Vicente FC,https://tmssl.akamaized.net/images/wappen/head/2424.png,Liga Portugal,Portugal,,27,24.9,20,Estádio Cidade de Barcelos,12046,César Peixoto
+2425,Rio Ave FC,https://tmssl.akamaized.net/images/wappen/head/2425.png,Liga Portugal,Portugal,,25,24.5,24,Estádio do Rio Ave FC,5300,Sotiris Sylaidopoulos
+2431,CF Estrela Amadora,https://tmssl.akamaized.net/images/wappen/head/2431.png,Liga Portugal,Portugal,,29,24.4,24,Estádio José Gomes,9288,José Faria
+244,Olympique Marseille,https://tmssl.akamaized.net/images/wappen/head/244.png,Ligue 1,France,,26,27.9,25,Orange Vélodrome,67394,Roberto De Zerbi
+2441,Athlitiki Enosi Konstantinoupoleos,https://tmssl.akamaized.net/images/wappen/head/2441.png,Super League Greece,Greece,,30,28.7,24,Allwyn Arena,32500,
+2448,Sporting Gijón,https://tmssl.akamaized.net/images/wappen/head/2448.png,LaLiga,Spain,,28,26.2,10,El Molinón - Enrique Castro Quini,29029,
+2451,Inverness Caledonian Thistle FC,https://tmssl.akamaized.net/images/wappen/head/2451.png,Scottish Premiership,Scotland,,26,24.5,9,Tulloch Caledonian Stadium,7750,
+2497,Real Oviedo,https://tmssl.akamaized.net/images/wappen/head/2497.png,LaLiga,Spain,,21,26.4,7,Carlos Tartiere,30500,Veljko Paunovic
+252,Genoa CFC,https://tmssl.akamaized.net/images/wappen/head/252.png,Serie A,Italy,,31,24.0,20,Luigi Ferraris,34901,Patrick Vieira
+2521,FC Alverca,https://tmssl.akamaized.net/images/wappen/head/2521.png,Liga Portugal,Portugal,,23,24.2,19,Complexo Desportivo FC Alverca,6932,Custódio
+255,Legia Warszawa,https://tmssl.akamaized.net/images/wappen/head/255.png,Pko Bp Ekstraklasa,Poland,,25,26.4,12,Stadion Miejski im. Marszałka Józefa Piłsudskiego,31103,Edward Iordănescu
+2553,Kilmarnock FC,https://tmssl.akamaized.net/images/wappen/head/2553.png,Scottish Premiership,Scotland,,24,26.1,16,"BBSP Stadium, Rugby Park",18128,Stuart Kettlewell
+2578,St. Johnstone FC,https://tmssl.akamaized.net/images/wappen/head/2578.png,Scottish Premiership,Scotland,,24,25.9,10,McDiarmid Park,10696,Craig Levein
+26,FC Basel 1893,https://tmssl.akamaized.net/images/wappen/head/26.png,Super League,Switzerland,,32,23.8,20,St. Jakob-Park,38512,Ludovic Magnin
+26459,NK Veres Rivne,https://tmssl.akamaized.net/images/wappen/head/26459.png,Ukrainian Premier League,Ukraine,,21,23.9,10,Stadion Avangard (2022),7122,Oleg Shandruk
+265,Panathinaikos Athlitikos Omilos,https://tmssl.akamaized.net/images/wappen/head/265.png,Super League Greece,Greece,,33,27.8,22,Apostolos Nikolaidis,15000,
+2672,APO Levadiakos Football Club,https://tmssl.akamaized.net/images/wappen/head/2672.png,Super League Greece,Greece,,28,27.6,14,"Stadio Livadias ""Lampros Katsonis""",5915,
+2687,Cádiz CF,https://tmssl.akamaized.net/images/wappen/head/2687.png,LaLiga,Spain,,26,28.7,6,Nuevo Mirandilla,21094,
+269,Holstein Kiel,https://tmssl.akamaized.net/images/wappen/head/269.png,Bundesliga,Germany,,29,25.1,15,Holstein-Stadion,15034,Marcel Rapp
+2696,PFK Krylya Sovetov Samara,https://tmssl.akamaized.net/images/wappen/head/2696.png,Russian Premier League,Russia,,27,27.7,11,Solidarnost Samara Arena,42347,
+2698,FC Rubin Kazan,https://tmssl.akamaized.net/images/wappen/head/2698.png,Russian Premier League,Russia,,33,27.3,13,Ak Bars Arena,45379,
+27,Bayern Munich,https://tmssl.akamaized.net/images/wappen/head/27.png,Bundesliga,Germany,,31,26.1,15,Allianz Arena,75000,Vincent Kompany
+272,Allmänna Idrottsklubben,https://tmssl.akamaized.net/images/wappen/head/272.png,Allsvenskan,Sweden,,28,24.3,11,Strawberry Arena,50000,
+2727,Oud-Heverlee Leuven,https://tmssl.akamaized.net/images/wappen/head/2727.png,Jupiler Pro League,Belgium,,23,25.2,10,King Power at Den Dreef Stadion,9809,David Hubert
+273,Stade Rennais FC,https://tmssl.akamaized.net/images/wappen/head/273.png,Ligue 1,France,,34,25.3,20,Roazhon Park,29778,Habib Beye
+2741,FK Baltika,https://tmssl.akamaized.net/images/wappen/head/2741.png,Russian Premier League,Russia,,28,25.8,11,Rostec Arena,30600,
+2759,Ross County FC,https://tmssl.akamaized.net/images/wappen/head/2759.png,Scottish Premiership,Scotland,,26,26.8,12,Global Energy Stadium,6541,Don Cowie
+276,Hellas Verona,https://tmssl.akamaized.net/images/wappen/head/276.png,Serie A,Italy,,29,24.4,23,Marcantonio Bentegodi,39211,Paolo Zanetti
+2760,Partick Thistle FC,https://tmssl.akamaized.net/images/wappen/head/2760.png,Scottish Premiership,Scotland,,19,27.9,1,The Energy Check Stadium at Firhill,10102,
+2778,FC Nordsjaelland,https://tmssl.akamaized.net/images/wappen/head/2778.png,Danish Superliga,Denmark,,30,22.5,13,Right to Dream Park,10300,Jens Olsen
+2790,FC Lugano,https://tmssl.akamaized.net/images/wappen/head/2790.png,Super League,Switzerland,,34,24.3,19,AIL Arena,8793,Mattia Croci-Torti
+28095,FK Ufa,https://tmssl.akamaized.net/images/wappen/head/28095.png,Russian Premier League,Russia,,26,24.4,3,Neftyanik,15132,
+281,Manchester City,https://tmssl.akamaized.net/images/wappen/head/281.png,Premier League,England,,32,25.2,20,Etihad Stadium,61000,Pep Guardiola
+2832,Gaziantep FK,https://tmssl.akamaized.net/images/wappen/head/2832.png,Süper Lig,Türkiye,,23,24.7,10,Gaziantep Stadyumu,30320,İsmet Taşdemir
+289,Sunderland AFC,https://tmssl.akamaized.net/images/wappen/head/289.png,Premier League,England,,31,25.7,25,Stadium of Light,48707,Régis Le Bris
+29,Everton FC,https://tmssl.akamaized.net/images/wappen/head/29.png,Premier League,England,,23,25.8,11,Hill Dickinson Stadium,52769,David Moyes
+290,AJ Auxerre,https://tmssl.akamaized.net/images/wappen/head/290.png,Ligue 1,France,,31,24.2,19,Stade de l'Abbé-Deschamps,18541,Christophe Pélissier
+294,SL Benfica,https://tmssl.akamaized.net/images/wappen/head/294.png,Liga Portugal,Portugal,,30,24.7,17,Estádio da Luz,68100,Bruno Lage
+2999,Hamilton Academical FC,https://tmssl.akamaized.net/images/wappen/head/2999.png,Scottish Premiership,Scotland,,28,22.8,9,Fountain of Youth Stadium,6018,
+3,1.FC Köln,https://tmssl.akamaized.net/images/wappen/head/3.png,Bundesliga,Germany,,28,25.7,12,RheinEnergieSTADION,50000,Lukas Kwasniok
+3008,Hull City,https://tmssl.akamaized.net/images/wappen/head/3008.png,Premier League,England,,28,25.0,17,MKM Stadium,25586,
+301,FCSB,https://tmssl.akamaized.net/images/wappen/head/301.png,Superliga,Romania,,25,26.2,8,Arena Națională,55634,Elias Charalambous
+30120,Athlitiki Enosi Kifisias,https://tmssl.akamaized.net/images/wappen/head/30120.png,Super League Greece,Greece,,35,26.9,21,Gipedo Neapolis,4999,
+3057,Standard Liège,https://tmssl.akamaized.net/images/wappen/head/3057.png,Jupiler Pro League,Belgium,,27,26.1,18,Maurice Dufrasne Stadion,27221,Mircea Rednic
+306,SC Heerenveen,https://tmssl.akamaized.net/images/wappen/head/306.png,Eredivisie,Netherlands,,23,24.0,13,Abe Lenstra Stadion,27224,Robin Veldman
+3060,APS Atromitos Athinon,https://tmssl.akamaized.net/images/wappen/head/3060.png,Super League Greece,Greece,,30,26.9,13,Stadio Peristeriou,9050,
+3062,Athens Kallithea,https://tmssl.akamaized.net/images/wappen/head/3062.png,Super League Greece,Greece,,29,26.7,10,Grigoris Lamprakis Stadium,6300,Massimo Donati
+31,Liverpool FC,https://tmssl.akamaized.net/images/wappen/head/31.png,Premier League,England,,29,25.4,22,Anfield,61276,Arne Slot
+317,FC Twente Enschede,https://tmssl.akamaized.net/images/wappen/head/317.png,Eredivisie,Netherlands,,31,25.3,18,De Grolsch Veste,30205,Joseph Oosting
+3205,Kayserispor,https://tmssl.akamaized.net/images/wappen/head/3205.png,Süper Lig,Türkiye,,26,24.8,8,RHG Enertürk Enerji Stadyumu,31856,Markus Gisdol
+3268,Casa Pia AC,https://tmssl.akamaized.net/images/wappen/head/3268.png,Liga Portugal,Portugal,,23,27.4,17,Estádio Municipal de Rio Maior,7000,João Pereira
+33,FC Schalke 04,https://tmssl.akamaized.net/images/wappen/head/33.png,Bundesliga,Germany,,27,26.4,12,Veltins-Arena,62271,
+3302,UD Almería,https://tmssl.akamaized.net/images/wappen/head/3302.png,LaLiga,Spain,,24,25.2,13,Power Horse Stadium,18331,
+331,CA Osasuna,https://tmssl.akamaized.net/images/wappen/head/331.png,LaLiga,Spain,,20,28.0,3,El Sadar,23576,Alessio Lisci
+3329,FC Famalicão,https://tmssl.akamaized.net/images/wappen/head/3329.png,Liga Portugal,Portugal,,26,23.7,18,Estádio Municipal de Famalicão,5186,Hugo Oliveira
+336,Sporting CP,https://tmssl.akamaized.net/images/wappen/head/336.png,Liga Portugal,Portugal,,30,25.0,18,Estádio José Alvalade,52095,Rui Borges
+3368,Levante UD,https://tmssl.akamaized.net/images/wappen/head/3368.png,LaLiga,Spain,,22,24.6,5,Ciutat de València,26354,Julián Calero
+338,Dynamo Kyiv,https://tmssl.akamaized.net/images/wappen/head/338.png,Ukrainian Premier League,Ukraine,,42,24.4,10,Valeriy Lobanovsky Stadion,16873,Oleksandr Shovkovskyi
+3385,Panserraikos Serres,https://tmssl.akamaized.net/images/wappen/head/3385.png,Super League Greece,Greece,,34,26.1,18,Dimotiko Gipedo Serron,9500,
+3426,Esbjerg fB,https://tmssl.akamaized.net/images/wappen/head/3426.png,Danish Superliga,Denmark,,27,22.7,10,Blue Water Arena,16942,
+347,FC Metz,https://tmssl.akamaized.net/images/wappen/head/347.png,Ligue 1,France,,22,25.0,13,Stade Saint-Symphorien,28786,Stéphane Le Mignan
+35,FC St. Pauli,https://tmssl.akamaized.net/images/wappen/head/35.png,Bundesliga,Germany,,28,25.9,23,Millerntor-Stadion,29546,Alexander Blessin
+350,Sheffield United,https://tmssl.akamaized.net/images/wappen/head/350.png,Premier League,England,,28,24.2,11,Bramall Lane,32702,
+3508,Zulte Waregem,https://tmssl.akamaized.net/images/wappen/head/3508.png,Jupiler Pro League,Belgium,,26,23.8,15,Elindus Arena,12698,Sven Vandenbroeck
+3522,Spezia Calcio,https://tmssl.akamaized.net/images/wappen/head/3522.png,Serie A,Italy,,32,24.4,25,Alberto Picco,11676,
+354,KV Mechelen,https://tmssl.akamaized.net/images/wappen/head/354.png,Jupiler Pro League,Belgium,,29,22.6,18,Achter de Kazerne,16672,Frederik Vanderbiest
+3592,Kryvbas Kryvyi Rig,https://tmssl.akamaized.net/images/wappen/head/3592.png,Ukrainian Premier League,Ukraine,,18,21.8,10,Girnyk,3219,Patrick van Leeuwen
+36,Fenerbahce,https://tmssl.akamaized.net/images/wappen/head/36.png,Süper Lig,Türkiye,,44,26.8,23,Chobani Stadyumu FB Şükrü Saracoğlu Spor Kompleksi,47430,José Mourinho
+366,Real Valladolid CF,https://tmssl.akamaized.net/images/wappen/head/366.png,LaLiga,Spain,,28,25.4,14,José Zorrilla,27618,Paulo Pezzolano
+367,Rayo Vallecano,https://tmssl.akamaized.net/images/wappen/head/367.png,LaLiga,Spain,,24,28.4,11,Estadio de Vallecas,14708,Iñigo Pérez
+368,Sevilla FC,https://tmssl.akamaized.net/images/wappen/head/368.png,LaLiga,Spain,,27,26.8,13,Ramón Sánchez-Pizjuán,43883,Matías Almeyda
+369,Lyngby Boldklub,https://tmssl.akamaized.net/images/wappen/head/369.png,Danish Superliga,Denmark,,25,25.1,7,Lyngby Stadion,10000,Morten Karlsen
+370,Aberdeen FC,https://tmssl.akamaized.net/images/wappen/head/370.png,Scottish Premiership,Scotland,,30,25.5,22,Pittodrie Stadium,20866,Jimmy Thelin
+3709,Getafe CF,https://tmssl.akamaized.net/images/wappen/head/3709.png,LaLiga,Spain,,22,27.0,12,Coliseum,16800,José Bordalás
+371,Celtic FC,https://tmssl.akamaized.net/images/wappen/head/371.png,Scottish Premiership,Scotland,,30,26.6,21,Celtic Park,60411,Brendan Rodgers
+3725,RFK Akhmat Grozny,https://tmssl.akamaized.net/images/wappen/head/3725.png,Russian Premier League,Russia,,27,26.6,12,Akhmat-Arena,30200,
+3729,Arsenal Tula,https://tmssl.akamaized.net/images/wappen/head/3729.png,Russian Premier League,Russia,,27,27.4,2,Arsenal,19241,
+377,FC Baník Ostrava a.s.,https://tmssl.akamaized.net/images/wappen/head/377.png,Chance Liga,Czech Republic,,29,25.9,13,Městský stadion  - Vitkovice Aréna,15123,
+379,West Ham United,https://tmssl.akamaized.net/images/wappen/head/379.png,Premier League,England,,27,25.8,17,London Stadium,62500,Graham Potter
+38,Fortuna Düsseldorf,https://tmssl.akamaized.net/images/wappen/head/38.png,Bundesliga,Germany,,29,25.9,12,MERKUR SPIEL-ARENA,54600,
+383,PSV Eindhoven,https://tmssl.akamaized.net/images/wappen/head/383.png,Eredivisie,Netherlands,,27,25.2,15,Philips Stadion,35000,Peter Bosz
+3837,Fredrikstad Fotballklubb,https://tmssl.akamaized.net/images/wappen/head/3837.png,Eliteserien,Norway,,26,24.2,9,Fredrikstad Stadion,12560,
+385,Fortuna Sittardia Combinatie,https://tmssl.akamaized.net/images/wappen/head/385.png,Eredivisie,Netherlands,,28,27.3,15,Fortuna Sittard Stadion,12800,
+39,1.FSV Mainz 05,https://tmssl.akamaized.net/images/wappen/head/39.png,Bundesliga,Germany,,30,27.1,16,Mewa Arena,33305,Bo Henriksen
+3901,RAAL La Louvière,https://tmssl.akamaized.net/images/wappen/head/3901.png,Jupiler Pro League,Belgium,,29,24.7,21,Easi Arena,8050,Frédéric Taquin
+39097,Obolon Kyiv,https://tmssl.akamaized.net/images/wappen/head/39097.png,Ukrainian Premier League,Ukraine,,24,26.7,0,Obolon-Arena,5103,Oleksandr Antonenko
+3911,Stade Brestois 29,https://tmssl.akamaized.net/images/wappen/head/3911.png,Ligue 1,France,,19,25.5,6,Stade Francis-Le Blé,15220,Éric Roy
+3948,Union Saint-Gilloise,https://tmssl.akamaized.net/images/wappen/head/3948.png,Jupiler Pro League,Belgium,,31,24.4,23,Stade Joseph Mariën,9512,Sébastien Pocognoli
+398,Società Sportiva Lazio S.p.A.,https://tmssl.akamaized.net/images/wappen/head/398.png,Serie A,Italy,,28,27.8,17,Olimpico di Roma,70634,
+399,Leeds United,https://tmssl.akamaized.net/images/wappen/head/399.png,Premier League,England,,29,27.2,21,Elland Road,37890,Daniel Farke
+4,1.FC Nuremberg,https://tmssl.akamaized.net/images/wappen/head/4.png,Bundesliga,Germany,,33,25.2,7,Max-Morlock-Stadion,50000,
+403,Willem II Tilburg,https://tmssl.akamaized.net/images/wappen/head/403.png,Eredivisie,Netherlands,,26,24.9,8,Koning Willem II Stadion,14700,Peter Maes
+405,Aston Villa,https://tmssl.akamaized.net/images/wappen/head/405.png,Premier League,England,,29,27.4,21,Villa Park,43205,Unai Emery
+40812,Universitatea Craiova,https://tmssl.akamaized.net/images/wappen/head/40812.png,Superliga,Romania,,33,25.1,13,Ion Oblemenco (2017),30983,Mirel Rădoi
+409,Fußballclub Red Bull Salzburg,https://tmssl.akamaized.net/images/wappen/head/409.png,Bundesliga,Austria,,30,23.0,21,Red Bull Arena Salzburg,30188,
+41,Hamburger SV,https://tmssl.akamaized.net/images/wappen/head/41.png,Bundesliga,Germany,,26,24.6,17,Volksparkstadion,57000,Merlin Polzin
+410,Udinese Calcio,https://tmssl.akamaized.net/images/wappen/head/410.png,Serie A,Italy,,39,25.5,33,Bluenergy Stadium,25144,Kosta Runjaić
+41231,FK Sochi,https://tmssl.akamaized.net/images/wappen/head/41231.png,Russian Premier League,Russia,,28,27.0,6,Fisht Olympic Stadium,45994,
+415,FC Toulouse,https://tmssl.akamaized.net/images/wappen/head/415.png,Ligue 1,France,,24,22.9,14,Stadium Municipal,33150,Carles Martínez
+416,Torino FC,https://tmssl.akamaized.net/images/wappen/head/416.png,Serie A,Italy,,27,25.6,17,Olimpico Grande Torino,28177,Marco Baroni
+417,OGC Nice,https://tmssl.akamaized.net/images/wappen/head/417.png,Ligue 1,France,,27,25.3,19,Allianz Riviera,36178,Franck Haise
+4172,Pisa Sporting Club,https://tmssl.akamaized.net/images/wappen/head/4172.png,Serie A,Italy,,35,24.7,20,Cetilar® Arena,12508,Alberto Gilardino
+418,Real Madrid,https://tmssl.akamaized.net/images/wappen/head/418.png,LaLiga,Spain,,30,25.5,20,Santiago Bernabéu,83186,Xabi Alonso
+419,GNK Dinamo Zagreb,https://tmssl.akamaized.net/images/wappen/head/419.png,Supersport Hnl,Croatia,,33,25.7,14,Maksimir,35123,
+42,Hannover 96,https://tmssl.akamaized.net/images/wappen/head/42.png,Bundesliga,Germany,,28,25.0,6,Heinz-von-Heiden-Arena,49000,
+43,Heart of Midlothian FC,https://tmssl.akamaized.net/images/wappen/head/43.png,Scottish Premiership,Scotland,,36,26.7,19,Tynecastle Park,19852,Derek McInnes
+430,ACF Fiorentina,https://tmssl.akamaized.net/images/wappen/head/430.png,Serie A,Italy,,36,25.2,16,Artemio Franchi,43147,Stefano Pioli
+44,Hertha BSC,https://tmssl.akamaized.net/images/wappen/head/44.png,Bundesliga,Germany,,36,24.1,14,Olympiastadion Berlin,74667,
+443,Vejle Boldklub,https://tmssl.akamaized.net/images/wappen/head/443.png,Danish Superliga,Denmark,,28,24.7,8,Vejle Stadion,11060,Ivan Prelec
+4441,Wolfsberger AC,https://tmssl.akamaized.net/images/wappen/head/4441.png,Bundesliga,Austria,,26,25.0,10,Lavanttal-Arena,7300,Dietmar Kühbauer
+447,HNK Hajduk Split,https://tmssl.akamaized.net/images/wappen/head/447.png,Supersport Hnl,Croatia,,38,24.2,17,Poljud,34183,Gonzalo García
+449,Trabzonspor,https://tmssl.akamaized.net/images/wappen/head/449.png,Süper Lig,Türkiye,,39,25.4,17,Papara Park,41000,Fatih Tekke
+452,BSC Young Boys,https://tmssl.akamaized.net/images/wappen/head/452.png,Super League,Switzerland,,31,25.5,12,Stadion Wankdorf,31500,Giorgio Contini
+458,Palermo FC,https://tmssl.akamaized.net/images/wappen/head/458.png,Serie A,Italy,,28,25.6,7,"Comunale Renzo Barbera ""La Favorita""",36365,
+46,Inter Milan,https://tmssl.akamaized.net/images/wappen/head/46.png,Serie A,Italy,,25,27.4,18,Giuseppe Meazza,75923,Cristian Chivu
+4603,Athlitiki Enosi Larisas,https://tmssl.akamaized.net/images/wappen/head/4603.png,Super League Greece,Greece,,30,29.2,16,AEL Novibet Arena,16118,
+4633,FK Novi Pazar,https://tmssl.akamaized.net/images/wappen/head/4633.png,Super Liga Srbije,Serbia,,22,24.1,7,Gradski stadion Novi Pazar,6900,Vladimir Gacinovic
+4645,FK Radnicki 1923 Kragujevac,https://tmssl.akamaized.net/images/wappen/head/4645.png,Super Liga Srbije,Serbia,,35,25.1,16,Čika Dača Stadion,15100,Fedja Dudic
+465,St. Mirren FC,https://tmssl.akamaized.net/images/wappen/head/465.png,Scottish Premiership,Scotland,,25,26.2,18,The SMISA Stadium,7937,Stephen Robinson
+467,NEC Nijmegen,https://tmssl.akamaized.net/images/wappen/head/467.png,Eredivisie,Netherlands,,25,26.0,12,Goffertstadion,12650,Dick Schreuder
+468,Sparta Rotterdam,https://tmssl.akamaized.net/images/wappen/head/468.png,Eredivisie,Netherlands,,23,24.8,7,Sparta-stadion - Het Kasteel,10599,Maurice Steijn
+47,Iraklis Thessaloniki,https://tmssl.akamaized.net/images/wappen/head/47.png,Super League Greece,Greece,,27,24.3,9,Kaftanzoglio Stadio,27770,
+472,UD Las Palmas,https://tmssl.akamaized.net/images/wappen/head/472.png,LaLiga,Spain,,27,26.6,6,Estadio de Gran Canaria,32400,Luis Carrión
+475,Sint-Truidense VV,https://tmssl.akamaized.net/images/wappen/head/475.png,Jupiler Pro League,Belgium,,23,24.4,14,Daio Wasabi Stayen Stadium,11337,Wouter Vrancken
+48332,Kolos Kovalivka,https://tmssl.akamaized.net/images/wappen/head/48332.png,Ukrainian Premier League,Ukraine,,29,25.3,8,Kolos,5050,Ruslan Kostyshyn
+48726,Rukh Lviv,https://tmssl.akamaized.net/images/wappen/head/48726.png,Ukrainian Premier League,Ukraine,,10,19.9,2,Arena Lviv,34725,Ivan Fedyk
+49364,Ingulets Petrove,https://tmssl.akamaized.net/images/wappen/head/49364.png,Ukrainian Premier League,Ukraine,,30,22.6,0,Stadion Ingulets,1869,Vasyl Kobin
+496,Malmö Fotbollförening,https://tmssl.akamaized.net/images/wappen/head/496.png,Allsvenskan,Sweden,,34,25.3,15,Eleda Stadion,22500,
+49702,FK Nizhny Novgorod,https://tmssl.akamaized.net/images/wappen/head/49702.png,Russian Premier League,Russia,,29,24.9,10,Nizhny Novgorod Stadium,44242,
+5,AC Milan,https://tmssl.akamaized.net/images/wappen/head/5.png,Serie A,Italy,,32,25.4,22,Giuseppe Meazza,75923,Massimiliano Allegri
+501,Fotballklubben Bodø/Glimt,https://tmssl.akamaized.net/images/wappen/head/501.png,Eliteserien,Norway,,26,26.2,5,Aspmyra Stadion,8500,
+506,Juventus FC,https://tmssl.akamaized.net/images/wappen/head/506.png,Serie A,Italy,,29,27.2,20,Allianz Stadium,41507,Igor Tudor
+511,Dundee FC,https://tmssl.akamaized.net/images/wappen/head/511.png,Scottish Premiership,Scotland,,19,25.6,13,Kilmac Stadium at Dens Park,11850,Steven Pressley
+512,Stoke City,https://tmssl.akamaized.net/images/wappen/head/512.png,Premier League,England,,24,26.7,9,bet365 Stadium,30089,
+520,Cercle Brugge,https://tmssl.akamaized.net/images/wappen/head/520.png,Jupiler Pro League,Belgium,,24,23.5,15,Jan Breydelstadion,29062,Onur Cinel
+527,Football Club Lausanne-Sport,https://tmssl.akamaized.net/images/wappen/head/527.png,Super League,Switzerland,,27,24.2,20,Stade de la Tuilière,12544,
+533,TSG 1899 Hoffenheim,https://tmssl.akamaized.net/images/wappen/head/533.png,Bundesliga,Germany,,36,24.3,22,PreZero Arena,30150,Christian Ilzer
+5358,SD Huesca,https://tmssl.akamaized.net/images/wappen/head/5358.png,LaLiga,Spain,,24,27.5,8,El Alcoraz,9128,
+53646,FK Polissya Zhytomyr,https://tmssl.akamaized.net/images/wappen/head/53646.png,Ukrainian Premier League,Ukraine,,31,27.0,8,Tsentralnyi Polissya,5928,
+543,Wolverhampton Wanderers,https://tmssl.akamaized.net/images/wappen/head/543.png,Premier League,England,,32,26.5,27,Molineux Stadium,31750,Vítor Pereira
+55686,TOV FK Metalist 1925 Kharkiv,https://tmssl.akamaized.net/images/wappen/head/55686.png,Ukrainian Premier League,Ukraine,,31,26.2,8,Tsentralnyi Polissya,5928,
+5724,Randers FC,https://tmssl.akamaized.net/images/wappen/head/5724.png,Danish Superliga,Denmark,,28,24.8,17,Cepheus Park Randers,10300,Rasmus Bertelsen
+5776,FC Fredericia,https://tmssl.akamaized.net/images/wappen/head/5776.png,Danish Superliga,Denmark,,21,23.7,1,Monjasa Park,6000,Stig Pedersen
+58,RSC Anderlecht,https://tmssl.akamaized.net/images/wappen/head/58.png,Jupiler Pro League,Belgium,,27,24.9,21,Lotto Park,21900,Besnik Hasi
+5817,Sönderjyske Fodbold,https://tmssl.akamaized.net/images/wappen/head/5817.png,Danish Superliga,Denmark,,26,24.7,12,AL Sydbank Park,10021,Thomas Nørgaard
+5818,Hobro IK,https://tmssl.akamaized.net/images/wappen/head/5818.png,Danish Superliga,Denmark,,22,24.8,4,DS Arena,7500,
+583,Paris Saint-Germain,https://tmssl.akamaized.net/images/wappen/head/583.png,Ligue 1,France,,27,24.2,17,Parc des Princes,48583,Luis Enrique
+589,Antalyaspor,https://tmssl.akamaized.net/images/wappen/head/589.png,Süper Lig,Türkiye,,29,26.7,11,Corendon Airlines Park Antalya Stadı,29307,Emre Belözoğlu
+599,NK Varazdin,https://tmssl.akamaized.net/images/wappen/head/599.png,Supersport Hnl,Croatia,,31,26.6,11,Gradski stadion Andelko Herjavec,10800,Nikola Safaric
+60,SC Freiburg,https://tmssl.akamaized.net/images/wappen/head/60.png,Bundesliga,Germany,,30,26.3,14,Europa-Park Stadion,34700,Julian Schuster
+603,Cardiff City,https://tmssl.akamaized.net/images/wappen/head/603.png,Premier League,England,,28,25.5,24,Cardiff City Stadium,33280,
+605,Aris Thessalonikis,https://tmssl.akamaized.net/images/wappen/head/605.png,Super League Greece,Greece,,32,27.5,23,"Gipedo ""Kleanthis Vikelidis""",22800,
+607,Venezia FC,https://tmssl.akamaized.net/images/wappen/head/607.png,Serie A,Italy,,29,26.2,19,Pier Luigi Penzo,12048,Eusebio Di Francesco
+60949,Volou Neos Podosferikos Syllogos,https://tmssl.akamaized.net/images/wappen/head/60949.png,Super League Greece,Greece,,29,26.4,13,Panthessaliko Stadio,22700,
+61,Servette FC,https://tmssl.akamaized.net/images/wappen/head/61.png,Super League,Switzerland,,36,25.7,24,Stade de Genève,30084,Thomas Häberli
+610,Ajax Amsterdam,https://tmssl.akamaized.net/images/wappen/head/610.png,Eredivisie,Netherlands,,26,24.9,15,Johan Cruijff ArenA,55885,John Heitinga
+6195,SSC Napoli,https://tmssl.akamaized.net/images/wappen/head/6195.png,Serie A,Italy,,41,27.1,23,Diego Armando Maradona,54726,Antonio Conte
+62,SK Slavia Prague,https://tmssl.akamaized.net/images/wappen/head/62.png,Chance Liga,Czech Republic,,41,24.4,23,Fortuna Arena,19370,Jindrich Trpisovsky
+621,Athletic Bilbao,https://tmssl.akamaized.net/images/wappen/head/621.png,LaLiga,Spain,,32,26.8,4,San Mamés,53289,Ernesto Valverde
+63007,LNZ Cherkasy,https://tmssl.akamaized.net/images/wappen/head/63007.png,Ukrainian Premier League,Ukraine,,29,24.9,10,Cherkasy-Arena,10321,Vitaliy Ponomaryov
+631,Chelsea FC,https://tmssl.akamaized.net/images/wappen/head/631.png,Premier League,England,,38,23.4,29,Stamford Bridge,41631,Enzo Maresca
+641,Middlesbrough FC,https://tmssl.akamaized.net/images/wappen/head/641.png,Premier League,England,,25,26.1,8,Riverside Stadium,33746,
+6418,Panetolikos Agrinio,https://tmssl.akamaized.net/images/wappen/head/6418.png,Super League Greece,Greece,,34,26.4,21,Gipedo Panetolikou,7321,
+6429,FC Universitatea Cluj,https://tmssl.akamaized.net/images/wappen/head/6429.png,Superliga,Romania,,40,26.0,19,Cluj Arena,30246,Ovidiu Sabău
+65,SpVgg Greuther Fürth,https://tmssl.akamaized.net/images/wappen/head/65.png,Bundesliga,Germany,,28,24.0,11,Sportpark Ronhof | Thomas Sommer,16626,
+653,Omilos Filathlon Irakliou FC,https://tmssl.akamaized.net/images/wappen/head/653.png,Super League Greece,Greece,,31,26.3,11,Pankritio Stadio,25780,
+6574,US Sassuolo,https://tmssl.akamaized.net/images/wappen/head/6574.png,Serie A,Italy,,40,24.8,18,Mapei Stadium - Città del Tricolore,21584,Fabio Grosso
+660,FC Shakhtar Donetsk,https://tmssl.akamaized.net/images/wappen/head/660.png,Ukrainian Premier League,Ukraine,,34,24.2,17,Arena Lviv,34725,
+6646,Fatih Karagümrük,https://tmssl.akamaized.net/images/wappen/head/6646.png,Süper Lig,Türkiye,,24,24.9,8,Atatürk Olimpiyat,77563,Marcel Lička
+667,RC Strasbourg Alsace,https://tmssl.akamaized.net/images/wappen/head/667.png,Ligue 1,France,,34,21.9,26,Stade de la Meinau,32000,Liam Rosenior
+6676,A.G.S Asteras Tripolis,https://tmssl.akamaized.net/images/wappen/head/6676.png,Super League Greece,Greece,,29,28.7,15,Gipedo Theodoros Kolokotronis,7423,
+669,FK Partizan Belgrade,https://tmssl.akamaized.net/images/wappen/head/669.png,Super Liga Srbije,Serbia,,44,23.6,15,Partizan Stadium,32712,Srdjan Blagojevic
+677,Ipswich Town,https://tmssl.akamaized.net/images/wappen/head/677.png,Premier League,England,,26,27.8,13,Portman Road,30056,Kieran McKenna
+678,Aarhus GF,https://tmssl.akamaized.net/images/wappen/head/678.png,Danish Superliga,Denmark,,27,25.6,13,Ceres Park Vejlby,12000,Jakob Poulsen
+681,Real Sociedad,https://tmssl.akamaized.net/images/wappen/head/681.png,LaLiga,Spain,,28,25.9,8,Anoeta,40000,Sergio Francisco
+683,Olympiakos Syndesmos Filathlon Peiraios,https://tmssl.akamaized.net/images/wappen/head/683.png,Super League Greece,Greece,,29,26.8,19,Stadio Georgios Karaiskakis,33345,
+6890,Basaksehir FK,https://tmssl.akamaized.net/images/wappen/head/6890.png,Süper Lig,Türkiye,,45,25.7,18,Başakşehir Fatih Terim,17067,Çağdaş Atan
+703,Nottingham Forest,https://tmssl.akamaized.net/images/wappen/head/703.png,Premier League,England,,27,26.0,20,The City Ground,30404,Nuno Espírito Santo
+714,RCD Espanyol Barcelona,https://tmssl.akamaized.net/images/wappen/head/714.png,LaLiga,Spain,,28,26.2,7,RCDE Stadium,37776,Manolo González
+7160,Eyüpspor,https://tmssl.akamaized.net/images/wappen/head/7160.png,Süper Lig,Türkiye,,22,23.0,11,Recep Tayyip Erdoğan Stadyumu,13797,Selçuk Şahin
+7179,CD Tondela,https://tmssl.akamaized.net/images/wappen/head/7179.png,Liga Portugal,Portugal,,24,25.8,17,Estádio João Cardoso,5000,Ivo Vieira
+71985,Akron Togliatti,https://tmssl.akamaized.net/images/wappen/head/71985.png,Russian Premier League,Russia,,24,25.8,11,Samara-Arena,44918,
+720,FC Porto,https://tmssl.akamaized.net/images/wappen/head/720.png,Liga Portugal,Portugal,,29,25.4,19,Estádio do Dragão,50033,Francesco Farioli
+723,Almere City FC,https://tmssl.akamaized.net/images/wappen/head/723.png,Eredivisie,Netherlands,,27,23.8,4,Yanmar Stadion,4501,Hedwiges Maduro
+724,FC Volendam,https://tmssl.akamaized.net/images/wappen/head/724.png,Eredivisie,Netherlands,,25,23.1,5,Kras Stadion,6800,Rick Kruys
+738,Le Havre AC,https://tmssl.akamaized.net/images/wappen/head/738.png,Ligue 1,France,,20,24.2,10,Stade Océane,25178,Didier Digard
+749,FC Empoli,https://tmssl.akamaized.net/images/wappen/head/749.png,Serie A,Italy,,33,24.4,9,Carlo Castellani,19847,Roberto D'Aversa
+75231,Dinamo Makhachkala,https://tmssl.akamaized.net/images/wappen/head/75231.png,Russian Premier League,Russia,,26,25.2,11,Anzhi-Arena,24173,
+762,Newcastle United,https://tmssl.akamaized.net/images/wappen/head/762.png,Premier League,England,,25,26.1,14,St James' Park,52258,Eddie Howe
+7769,CFR Cluj,https://tmssl.akamaized.net/images/wappen/head/7769.png,Superliga,Romania,,43,25.9,23,Dr. Constantin Rădulescu,22198,Dan Petrescu
+79,VfB Stuttgart,https://tmssl.akamaized.net/images/wappen/head/79.png,Bundesliga,Germany,,33,24.9,17,MHPArena Stuttgart,60449,Sebastian Hoeneß
+798,Excelsior Rotterdam,https://tmssl.akamaized.net/images/wappen/head/798.png,Eredivisie,Netherlands,,21,23.4,7,"Stadion ""Woudestein""",4400,Ruben den Uil
+80,VfL Bochum,https://tmssl.akamaized.net/images/wappen/head/80.png,Bundesliga,Germany,,29,25.5,9,Vonovia Ruhrstadion,26000,Peter Zeidler
+800,Atalanta BC,https://tmssl.akamaized.net/images/wappen/head/800.png,Serie A,Italy,,31,26.8,16,New Balance Arena - Bergamo,24950,Ivan Jurić
+8024,FC Arouca,https://tmssl.akamaized.net/images/wappen/head/8024.png,Liga Portugal,Portugal,,28,24.9,24,Estádio Municipal de Arouca,5000,Vasco Seabra
+81401,SC Poltava,https://tmssl.akamaized.net/images/wappen/head/81401.png,Ukrainian Premier League,Ukraine,,17,26.9,0,Vorskla Butovsky Stadion,24600,Volodymyr Sysenko
+82,VfL Wolfsburg,https://tmssl.akamaized.net/images/wappen/head/82.png,Bundesliga,Germany,,39,25.6,25,Volkswagen Arena,28917,Paul Simonis
+820,Gençlerbirliği Spor Kulübü,https://tmssl.akamaized.net/images/wappen/head/820.png,Süper Lig,Türkiye,,33,26.0,16,Eryaman Stadyumu,20000,
+826,RC Lens,https://tmssl.akamaized.net/images/wappen/head/826.png,Ligue 1,France,,30,24.9,15,Stade Bollaert-Delelis,38223,Pierre Sage
+84122,Epicentr Kamyanets-Podilskyi,https://tmssl.akamaized.net/images/wappen/head/84122.png,Ukrainian Premier League,Ukraine,,26,26.1,7,Stadion im. G. Tonkocheyeva,2587,Sergiy Nagornyak
+85465,Karpaty Lviv,https://tmssl.akamaized.net/images/wappen/head/85465.png,Ukrainian Premier League,Ukraine,,27,24.6,6,Ukraina,28051,Fran Fernández
+86,SV Werder Bremen,https://tmssl.akamaized.net/images/wappen/head/86.png,Bundesliga,Germany,,31,25.0,21,Weserstadion,41800,Horst Steffen
+86209,Livyi Bereg Kyiv,https://tmssl.akamaized.net/images/wappen/head/86209.png,Ukrainian Premier League,Ukraine,,30,24.8,6,Arena Livyi Bereg,4700,Vitaliy Pervak
+865,FC Midtjylland,https://tmssl.akamaized.net/images/wappen/head/865.png,Danish Superliga,Denmark,,32,24.0,22,MCH Arena,12055,Thomas Thomasberg
+873,Crystal Palace,https://tmssl.akamaized.net/images/wappen/head/873.png,Premier League,England,,31,26.3,21,Selhurst Park,25486,Oliver Glasner
+87883,FC Kudrivka,https://tmssl.akamaized.net/images/wappen/head/87883.png,Ukrainian Premier League,Ukraine,,24,26.1,4,Stadion Avangard (2022),7122,Vasyl Baranov
+89,1.FC Union Berlin,https://tmssl.akamaized.net/images/wappen/head/89.png,Bundesliga,Germany,,31,26.0,18,Stadion An der Alten Försterei,22012,Steffen Baumgart
+897,Deportivo de La Coruña,https://tmssl.akamaized.net/images/wappen/head/897.png,LaLiga,Spain,,24,27.7,3,Abanca Riazor,32912,
+8970,Frosinone Calcio,https://tmssl.akamaized.net/images/wappen/head/8970.png,Serie A,Italy,,31,23.8,15,Benito Stirpe,16227,
+9010,FCV Dender EH,https://tmssl.akamaized.net/images/wappen/head/9010.png,Jupiler Pro League,Belgium,,20,24.8,12,Dender Football Complex,8548,Vincent Euvrard
+903,Hibernian FC,https://tmssl.akamaized.net/images/wappen/head/903.png,Scottish Premiership,Scotland,,27,27.2,17,Easter Road Stadium,20250,David Gray
+931,Fulham FC,https://tmssl.akamaized.net/images/wappen/head/931.png,Premier League,England,,22,27.8,18,Craven Cottage,29589,Marco Silva
+932,"Футбольный клуб ""Локомотив"" Москва",https://tmssl.akamaized.net/images/wappen/head/932.png,Russian Premier League,Russia,,28,25.9,6,RZD Arena,27084,
+940,Celta de Vigo,https://tmssl.akamaized.net/images/wappen/head/940.png,LaLiga,Spain,,29,27.1,6,Abanca Balaídos,22803,Claudio Giráldez
+941,FC Viktoria Plzen,https://tmssl.akamaized.net/images/wappen/head/941.png,Chance Liga,Czech Republic,,31,24.9,14,Doosan Aréna,11700,Miroslav Koubek
+964,AO FK Zenit Sankt-Peterburg,https://tmssl.akamaized.net/images/wappen/head/964.png,Russian Premier League,Russia,,27,26.9,12,Gazprom Arena,63026,
+9644,Raków Częstochowa,https://tmssl.akamaized.net/images/wappen/head/9644.png,Pko Bp Ekstraklasa,Poland,,29,24.1,17,zondacrypto Arena,5500,Marek Papszun
+968,KVC Westerlo,https://tmssl.akamaized.net/images/wappen/head/968.png,Jupiler Pro League,Belgium,,19,22.8,13,Het Kuipje,9062,Issame Charaï
+979,Moreirense FC,https://tmssl.akamaized.net/images/wappen/head/979.png,Liga Portugal,Portugal,,24,23.4,17,Estádio C. J. de Almeida Freitas,6150,António da Costa
+982,CD Nacional,https://tmssl.akamaized.net/images/wappen/head/982.png,Liga Portugal,Portugal,,28,24.9,22,Estádio da Madeira,5200,Tiago Margarido
+984,West Bromwich Albion,https://tmssl.akamaized.net/images/wappen/head/984.png,Premier League,England,,25,27.8,8,The Hawthorns,26850,
+985,Manchester United,https://tmssl.akamaized.net/images/wappen/head/985.png,Premier League,England,,32,24.9,19,Old Trafford,74879,Rúben Amorim
+987,Motherwell FC,https://tmssl.akamaized.net/images/wappen/head/987.png,Scottish Premiership,Scotland,,23,26.1,14,Fir Park,13677,Jens Berthel Askou
+989,AFC Bournemouth,https://tmssl.akamaized.net/images/wappen/head/989.png,Premier League,England,,30,25.4,21,Vitality Stadium,11307,Andoni Iraola
+995,FC Nantes,https://tmssl.akamaized.net/images/wappen/head/995.png,Ligue 1,France,,26,25.1,11,Stade de la Beaujoire,35322,Luís Castro

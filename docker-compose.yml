@@ -1,0 +1,27 @@
+# `docker-compose up` starts the whole app with no extra steps.
+#   frontend -> http://localhost:5173   (nginx: static build + /api proxy)
+#   backend  -> http://localhost:8000   (FastAPI)
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Swap the LLM with zero code changes. Leave GEMINI_API_KEY empty to run the
+      # deterministic rule-based NLU (fully functional, zero cost).
+      LLM_PROVIDER: "${LLM_PROVIDER:-gemini}"
+      GEMINI_API_KEY: "${GEMINI_API_KEY:-}"
+      GEMINI_MODEL: "${GEMINI_MODEL:-gemini-2.0-flash}"
+      CORS_ORIGINS: "http://localhost:5173,http://127.0.0.1:5173"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend

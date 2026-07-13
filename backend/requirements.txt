@@ -1,0 +1,10 @@
+# Runtime dependencies only. The NLU LLM call uses the stdlib (urllib), so no SDK is
+# required. Dataset-building deps (pandas, pyreadr) live in scripts/requirements-build.txt
+# and are NOT needed to run the API.
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+# test-only, kept here so `pip install -r requirements.txt` gives a runnable test env
+pytest>=8.0
+httpx>=0.27

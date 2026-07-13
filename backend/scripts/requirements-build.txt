@@ -1,0 +1,4 @@
+# Build-time only: used by build_dataset.py to fetch and join the sources.
+# Not required to run the API.
+pandas>=2.0
+soccerdata>=1.8    # Understat reader for the Big-5 xG/shots/key-passes enrichment
