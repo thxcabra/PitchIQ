@@ -27,3 +27,6 @@ frontend/dist/
 .idea/
 .vscode/
 Thumbs.db
+
+# Docs (internal, not published)
+docs/
