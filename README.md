@@ -3,11 +3,11 @@
 # ⚽ PitchIQ
 
 **Conversational football analytics for the 2025-26 European season.**
-Search, profile, and compare players — or just ask in plain English.
+Search, profile, and compare players, or just ask in plain English.
 
 `React + TypeScript` · `Python + FastAPI` · `Recharts` · `Gemini (swappable) + rule-based NLU` · `Docker`
 
-<img src="docs/screenshots/search.png" alt="PitchIQ search" width="820">
+<img src="assets/screenshots/search.png" alt="PitchIQ search" width="820">
 
 </div>
 
@@ -16,13 +16,13 @@ Search, profile, and compare players — or just ask in plain English.
 ## Why PitchIQ
 
 Football data arrives as raw tables: no context, no narrative. A sporting director doesn't
-think in spreadsheet columns — they think in questions. *"Who are the best young wingers in
+think in spreadsheet columns; they think in questions. *"Who are the best young wingers in
 Serie A?" "How does this striker compare to his peers?" "Is he worth the fee?"*
 
 PitchIQ makes the same data reachable two ways: through **fast, purpose-built screens** and
 through a **conversational layer** that turns a question into a chart, a table, or a visual
-comparison. The numbers are always computed deterministically from the data — the language
-model decides *what* to compute, never *what the answer is*.
+comparison. The numbers are always computed deterministically from the data. The language
+model decides what to compute, never what the answer is.
 
 ---
 
@@ -33,17 +33,17 @@ model decides *what* to compute, never *what the answer is*.
 | **Search** | Real-time name search with filters by **position → role**, **country → competition**, and **club**. Every card shows the player's photo, club crest, competition, age, and market value. |
 | **Player profile** | Photo, an overall **rating**, **strengths & weaknesses**, contextualised **percentile** metrics vs the player's position in their competition (radar + bars), season totals, a **per-competition breakdown**, **similar players**, and the latest **news**. Metrics are explained inline (what "/90" and percentiles mean). |
 | **Team profile** | Club crest, stadium, coach, squad value/age, and the full **squad** with photos, values, and output. |
-| **Competition profile** | Flag, top scorers, and every club ranked by goals — all clickable. |
+| **Competition profile** | Flag, top scorers, and every club ranked by goals, all clickable. |
 | **Compare** | A real **visual** head-to-head: overlaid radar + per-metric diverging bars, so you see who's better at what in seconds. Market-value context included. |
-| **Ask PitchIQ** | A chat that answers **rankings, lookups, and comparisons** in **English or Portuguese**, returning a chart / table / comparison / narrative — and failing gracefully on ambiguous or out-of-scope questions. |
+| **Ask PitchIQ** | A chat that answers **rankings, lookups, and comparisons** in **English or Portuguese**, returning a chart / table / comparison / narrative, and failing gracefully on ambiguous or out-of-scope questions. |
 
 ### Screenshots
 
 | Player profile | Ask PitchIQ (chat) |
 |---|---|
-| <img src="docs/screenshots/profile.png" width="420"> | <img src="docs/screenshots/chat.png" width="420"> |
+| <img src="assets/screenshots/profile.png" width="420"> | <img src="assets/screenshots/chat.png" width="420"> |
 | **Team profile** | **Competition profile** |
-| <img src="docs/screenshots/team.png" width="420"> | <img src="docs/screenshots/competition.png" width="420"> |
+| <img src="assets/screenshots/team.png" width="420"> | <img src="assets/screenshots/competition.png" width="420"> |
 
 ---
 
@@ -109,8 +109,8 @@ source of truth for the maths, and the language model is confined to a single, a
 
 A few deliberate choices:
 
-- **Grounding.** Whatever the model returns is normalised against a closed vocabulary — `"EPL"`
-  becomes *Premier League*, `"strikers"` becomes the *Centre-Forward* role, an aliased metric
+- **Grounding.** Whatever the model returns is normalised against a closed vocabulary: `"EPL"`
+  becomes Premier League, `"strikers"` becomes the Centre-Forward role, an aliased metric
   becomes its canonical key. Anything it can't resolve is dropped, so the model can't invent a
   metric or a competition.
 - **Deterministic entity resolution.** The model only extracts the *raw name*; a fuzzy search
@@ -118,7 +118,7 @@ A few deliberate choices:
   ties broken by prominence, so `"Mbappe"` → Kylian). Unknown names resolve to nothing, so the
   chat fails gracefully instead of guessing.
 - **Explain trace.** Every answer carries the structured query that produced it, shown subtly
-  in the UI — including whether the LLM or the rule-based engine resolved it.
+  in the UI, including whether the LLM or the rule-based engine resolved it.
 - **Bilingual by default.** The rule-based interpreter has English *and* Portuguese triggers
   (accent-insensitive), so *"artilheiros da Champions League"* works with no API key. With a
   key, Gemini understands any language.
@@ -126,7 +126,7 @@ A few deliberate choices:
   rankings, and comparisons are computed in the service layer, so a number in the chat is
   byte-for-byte the number on the screens. Covered by tests and auditable via the trace.
 
-**Swappable & free.** Provider and key come from environment variables only (`LLM_PROVIDER`,
+**Swappable and free.** Provider and key come from environment variables only (`LLM_PROVIDER`,
 `GEMINI_API_KEY`). Adding a provider is one class plus one branch. The default is Gemini's free
 tier (effectively $0 for normal use); with no key, the rule-based path handles everything.
 
@@ -137,16 +137,16 @@ tier (effectively $0 for normal use); with no key, the rule-based path handles e
 **Season: 2025-26**, so squads are current (Haaland at Manchester City, De Bruyne at Napoli,
 Mbappé at Real Madrid).
 
-- **Primary source — [Transfermarkt player-scores](https://github.com/dcaribou/transfermarkt-datasets)**
+- **Primary source: [Transfermarkt player-scores](https://github.com/dcaribou/transfermarkt-datasets)**
   (CC0, no scraping). Per-appearance data is aggregated into **one row per (player,
-  competition)** — the model that makes per-competition queries and the profile's
+  competition)**, the data model that makes per-competition queries and the profile's
   competition breakdown possible. It also provides club metadata (crest, stadium, coach,
   squad value/age) and player photos.
-- **Rich metrics — [Understat](https://understat.com)** (via `soccerdata`, plain HTTP). Big-5
+- **Rich metrics: [Understat](https://understat.com)** (via `soccerdata`, plain HTTP). Big-5
   **league** rows are enriched with **xG, xA, shots, and key passes**, matched by name. This is
   a deliberate hybrid: broad coverage everywhere, richer analytics where they exist.
 
-**Coverage:** ~12,300 rows · ~6,900 players · **44 competitions** — 14 top-division leagues,
+**Coverage:** ~12,300 rows · ~6,900 players · **44 competitions**: 14 top-division leagues,
 their domestic cups, the UEFA Champions/Europa/Conference League, the World Cup, and AFCON.
 
 **Honest trade-offs** (explained rather than hidden):
@@ -157,12 +157,12 @@ their domestic cups, the UEFA Champions/Europa/Conference League, the World Cup,
   when you ask (*"top scorers in Brazil"* → a clear "not covered" message, not wrong data).
 - **Event data (xG/shots) is Big-5 leagues only**, so radars for cups and smaller leagues are
   thinner and fall back automatically.
-- **~19% of players have no market value** — these are lower-profile players Transfermarkt
+- **~19% of players have no market value**: these are lower-profile players Transfermarkt
   simply doesn't value, shown as "n/d" rather than a guess.
 
 **Build pipeline.** `backend/scripts/build_dataset.py` (build-time only; needs `pandas` +
 `soccerdata`) downloads, joins, and writes the CSVs. **The runtime never touches the network
-or those libraries** — it reads the committed CSVs with the standard library, so the app boots
+or those libraries.** It reads the committed CSVs with the standard library, so the app boots
 instantly and runs offline. To regenerate:
 
 ```bash
@@ -174,15 +174,15 @@ python backend/scripts/build_dataset.py
 
 ## Architecture
 
-### Backend — clean layers, one source of truth
+### Backend: clean layers, one source of truth
 
 ```
 backend/app/
   routes/         thin FastAPI endpoints (Pydantic models, meaningful error codes)
   services/       ALL football logic: search · stats · ranking · comparison · team · competition · news
-  data/           repository.py — CSV access, abstracted (swap for a DB and nothing above changes)
+  data/           repository.py: CSV access, abstracted (swap for a DB and nothing above changes)
   nlu/            query understanding: interpreter · llm_provider · rule_based · extractors
-  chat/           executor.py — StructuredQuery -> ChatResponse, reusing the services above
+  chat/           executor.py: StructuredQuery -> ChatResponse, reusing the services above
   models/         domain + Pydantic response models (incl. the discriminated-union ChatResponse)
   metrics.py      the closed catalog of metrics a query can name
 ```
@@ -190,7 +190,7 @@ backend/app/
 The chat and the REST views call the **same services**, so nothing is duplicated and the
 numbers can't drift between them. Type hints are used throughout, not just in the models.
 
-### Frontend — typed, componentised
+### Frontend: typed, componentised
 
 ```
 frontend/src/
@@ -201,7 +201,7 @@ frontend/src/
 ```
 
 `ResponseRenderer` switches on the chat response's `type` and renders each shape (table, chart,
-comparison, …) dynamically — adding a response type is a single new case.
+comparison, …) dynamically; adding a response type is a single new case.
 
 ### API surface
 
@@ -213,26 +213,26 @@ comparison, …) dynamically — adding a response type is a single new case.
 
 ## Design decisions (and the reasoning)
 
-- **One row per (player, competition)** — the only model that lets you ask "top scorers in the
-  Champions League" *and* show a player's league/cup/continental split on their profile.
-- **Committed CSVs, stdlib runtime** — no database and no runtime network dependency. Heavy
+- **One row per (player, competition)**: the only model that lets you ask "top scorers in the
+  Champions League" and show a player's league/cup/continental split on their profile.
+- **Committed CSVs, stdlib runtime**: no database and no runtime network dependency. Heavy
   build-time libraries stay out of the running app; it starts fast and works offline.
-- **Rule-based NLU as a first-class citizen** — not a stub. It makes the product usable with no
+- **Rule-based NLU as a first-class citizen**: not a stub. It makes the product usable with no
   API key at zero cost, and it's where the LLM path lands whenever the model fails.
-- **Discriminated-union chat responses** — the frontend renders any shape from one component;
+- **Discriminated-union chat responses**: the frontend renders any shape from one component;
   the backend guarantees the contract with Pydantic.
-- **Deterministic maths, LLM for language** — the single most important line in the whole
-  design, and the reason the app can be trusted.
+- **Deterministic maths, LLM for language**: the core principle of the design, and the reason
+  the app's numbers can be trusted.
 
 ---
 
 ## Metric glossary
 
-- **/90** — per 90 minutes played; normalises for game time (0.8 goals/90 ≈ a goal every 112 min).
-- **Percentile** — where a player ranks against others in the same position and competition
+- **/90**: per 90 minutes played; normalises for game time (0.8 goals/90 ≈ a goal every 112 min).
+- **Percentile**: where a player ranks against others in the same position and competition
   (100 = best, 50 = average).
-- **xG / xA** — expected goals / assists: the quality of chances taken / created (Big-5 leagues).
-- **Rating** — the average percentile across a player's radar metrics.
+- **xG / xA**: expected goals / assists, the quality of chances taken / created (Big-5 leagues).
+- **Rating**: the average percentile across a player's radar metrics.
 
 ---
 
