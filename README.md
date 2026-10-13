@@ -5,11 +5,16 @@
 **Conversational football analytics for the 2025-26 European season.**
 Search, profile, and compare players, or just ask in plain English.
 
+[![CI](https://github.com/thxcabra/PitchIQ/actions/workflows/ci.yml/badge.svg)](https://github.com/thxcabra/PitchIQ/actions/workflows/ci.yml)
+
 `React + TypeScript` · `Python + FastAPI` · `Recharts` · `Gemini (swappable) + rule-based NLU` · `Docker`
 
 <img src="assets/screenshots/search.png" alt="PitchIQ search" width="820">
 
 </div>
+
+> Originally built as a solution to a full-stack take-home challenge
+> (SoccerSolver, *Conversational Analytics*).
 
 ---
 
@@ -49,6 +54,15 @@ model decides what to compute, never what the answer is.
 
 ## Quick start
 
+### Prerequisites
+
+- **Python 3.12** (backend)
+- **Node.js 20+** and npm (frontend)
+- **Docker** with Compose, optional: only for the one-command setup
+
+Configuration is optional. If you want to set anything (e.g. a Gemini key), copy
+`.env.example` to `.env` **at the repo root**; see [Configuration](#configuration).
+
 ### Docker (one command)
 
 ```bash
@@ -65,8 +79,11 @@ nginx serves the built frontend and proxies `/api` to the backend.
 ### Local (without Docker)
 
 ```bash
+cp .env.example .env                   # optional, at the repo root
+
 # backend
 cd backend
+python -m venv .venv                   # then activate it (Windows: .venv\Scripts\activate)
 pip install -r requirements.txt
 uvicorn app.main:app --reload          # http://localhost:8000
 
@@ -81,6 +98,33 @@ npm run dev                            # http://localhost:5173 (proxies /api -> 
 ```bash
 cd backend && pytest                    # percentile/ranking math + query understanding
 ```
+
+[CI](.github/workflows/ci.yml) runs the backend tests and the frontend production build
+(`npm run build`, which also type-checks with `tsc`) on every push and pull request.
+
+---
+
+## Configuration
+
+Every setting is optional; with none set, the app runs on the rule-based NLU with the
+committed dataset.
+
+**Where `.env` goes.** Put it at the **repo root** (`cp .env.example .env`). The backend
+reads the root `.env` and, if present, `backend/.env` (which takes precedence); real
+environment variables override both. Docker Compose reads the root `.env` too.
+
+| Variable | Default | Read by | What it does |
+|----------|---------|---------|--------------|
+| `LLM_PROVIDER` | `gemini` | backend | `gemini` uses Gemini when a key is set; `none` forces the rule-based NLU. |
+| `GEMINI_API_KEY` | *(empty)* | backend | Free [Google AI Studio](https://aistudio.google.com/apikey) key. Empty means rule-based NLU only. Sent in the `x-goog-api-key` header. |
+| `GEMINI_MODEL` | `gemini-3.6-flash` | backend | Gemini model used for query understanding. |
+| `LLM_TIMEOUT_SECONDS` | `12` | backend | Timeout for the Gemini call. On a timeout or failed request, the chat falls back to the rule-based parser. |
+| `CORS_ORIGINS` | `http://localhost:5173,http://127.0.0.1:5173` | backend | Comma-separated list of allowed frontend origins. |
+| `CSV_PATH` | `backend/app/data/players.csv` | backend | Players dataset. `clubs.csv` and `competitions.csv` are read from the same folder. |
+| `VITE_API_URL` | *(unset)* | frontend | API origin for a standalone frontend. Unset, the app calls `/api`, which the Vite dev server proxies to `http://127.0.0.1:8000` and nginx proxies to the backend in Docker. Vite does not read the root `.env`: set it in the shell or in `frontend/.env.local`. |
+
+With Docker Compose, only `LLM_PROVIDER`, `GEMINI_API_KEY` and `GEMINI_MODEL` are passed to the
+backend container; `CORS_ORIGINS` is set in `docker-compose.yml` and the rest keep their defaults.
 
 ---
 
@@ -126,9 +170,10 @@ A few deliberate choices:
   rankings, and comparisons are computed in the service layer, so a number in the chat is
   byte-for-byte the number on the screens. Covered by tests and auditable via the trace.
 
-**Swappable and free.** Provider and key come from environment variables only (`LLM_PROVIDER`,
-`GEMINI_API_KEY`). Adding a provider is one class plus one branch. The default is Gemini's free
-tier (effectively $0 for normal use); with no key, the rule-based path handles everything.
+**Swappable and free.** Provider, model, and key come from configuration only (`LLM_PROVIDER`,
+`GEMINI_MODEL`, `GEMINI_API_KEY`; see [Configuration](#configuration)). Adding a provider is one
+class plus one branch. The default is Gemini's free tier (effectively $0 for normal use); with
+no key, the rule-based path handles everything.
 
 ---
 
@@ -251,3 +296,13 @@ Data from the [Transfermarkt datasets](https://github.com/dcaribou/transfermarkt
 (CC0) and [Understat](https://understat.com) via [`soccerdata`](https://github.com/probberechts/soccerdata).
 Player photos and club crests from Transfermarkt; country flags from [flagcdn](https://flagcdn.com).
 News via Google News. Icons by [Phosphor](https://phosphoricons.com/).
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+## Author
+
+**João Cabral** · [GitHub](https://github.com/thxcabra) · [LinkedIn](https://www.linkedin.com/in/joao-cabral-machado/)
