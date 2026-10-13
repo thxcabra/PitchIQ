@@ -1,4 +1,9 @@
-"""Application settings, loaded from environment variables only."""
+"""Application settings, loaded from environment variables (and optional .env files).
+
+Lookup order, highest priority first: real environment variables, `backend/.env`, then the
+repo-root `.env` (paths are relative to the working directory, i.e. `backend/` when running
+uvicorn or pytest locally). Missing files are ignored.
+"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -9,7 +14,11 @@ _DEFAULT_CSV = Path(__file__).resolve().parent / "data" / "players.csv"
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
+    model_config = SettingsConfigDict(
+        env_file=("../.env", ".env"),  # later files win: backend/.env overrides the root one
+        env_file_encoding="utf-8",
+        extra="ignore",
+    )
 
     # Data
     csv_path: str = str(_DEFAULT_CSV)
