@@ -305,4 +305,4 @@ Released under the [MIT License](LICENSE).
 
 ## Author
 
-**João Cabral** · [GitHub](https://github.com/thxcabra) · [LinkedIn](https://www.linkedin.com/in/joao-cabral-machado/)
+**João Cabral** · [GitHub](https://github.com/thxcabra) · [LinkedIn](https://www.linkedin.com/in/joao-cabral-machado/) · [Portfolio](https://thxcabra.github.io/portfolio/#/projetos/3)
