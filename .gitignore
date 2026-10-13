@@ -4,6 +4,10 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 *.egg-info/
 
 # build cache (raw dataset sources are re-downloadable; only the built CSV is committed)
@@ -16,11 +20,20 @@ dist/
 frontend/dist/
 *.tsbuildinfo
 *.local
+.vite/
+npm-debug.log*
+coverage/
 
 # Env / secrets
 .env
 .env.*
 !.env.example
+
+# Logs
+*.log
+
+# Stray tool output
+downloaded_files/
 
 # Editor / OS
 .DS_Store
