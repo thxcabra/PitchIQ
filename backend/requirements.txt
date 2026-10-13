@@ -1,5 +1,5 @@
 # Runtime dependencies only. The NLU LLM call uses the stdlib (urllib), so no SDK is
-# required. Dataset-building deps (pandas, pyreadr) live in scripts/requirements-build.txt
+# required. Dataset-building deps (pandas, soccerdata) live in scripts/requirements-build.txt
 # and are NOT needed to run the API.
 fastapi>=0.110,<1.0
 uvicorn[standard]>=0.29

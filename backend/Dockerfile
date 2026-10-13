@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# runtime deps only (no pandas/pyreadr — those are build-time for the dataset)
+# runtime deps only (pandas/soccerdata are build-time only, for the dataset)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
