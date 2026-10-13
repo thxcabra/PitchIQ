@@ -97,3 +97,23 @@ def test_llm_failure_falls_back():
     assert sq.provider == "rule_based"
     assert sq.intent == "ranking"
     assert sq.metric == "goals_per90"
+
+
+def test_gemini_key_sent_in_header_not_url(monkeypatch):
+    import io
+    import json
+
+    from app.nlu import llm_provider
+
+    seen = {}
+
+    def fake_urlopen(req, timeout):
+        seen["url"], seen["key"] = req.full_url, req.get_header("X-goog-api-key")
+        body = {"candidates": [{"content": {"parts": [{"text": '{"intent": "ambiguous", "entities": []}'}]}}]}
+        return io.BytesIO(json.dumps(body).encode())
+
+    monkeypatch.setattr(llm_provider.urllib.request, "urlopen", fake_urlopen)
+    out = llm_provider.GeminiProvider("secret-key", "some-model", 1.0).extract("who is the best?")
+    assert out == {"intent": "ambiguous", "entities": []}
+    assert "secret-key" not in seen["url"]
+    assert seen["key"] == "secret-key"

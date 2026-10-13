@@ -96,7 +96,7 @@ class GeminiProvider:
     def extract(self, query: str) -> dict | None:
         url = (
             f"https://generativelanguage.googleapis.com/v1beta/models/"
-            f"{self._model}:generateContent?key={self._api_key}"
+            f"{self._model}:generateContent"
         )
         payload = {
             "system_instruction": {"parts": [{"text": _SYSTEM}]},
@@ -109,7 +109,8 @@ class GeminiProvider:
         }
         req = urllib.request.Request(
             url, data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"},
+            # key in a header, not the query string, so it never lands in URLs or access logs
+            headers={"Content-Type": "application/json", "x-goog-api-key": self._api_key},
         )
         try:
             with urllib.request.urlopen(req, timeout=self._timeout) as resp:
