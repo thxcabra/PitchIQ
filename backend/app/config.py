@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     # LLM / NLU.  LLM_PROVIDER = gemini | none  (none -> rule-based NLU only)
     llm_provider: str = "gemini"
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-3.6-flash"  # override with GEMINI_MODEL
     llm_timeout_seconds: float = 12.0
 
     # Server

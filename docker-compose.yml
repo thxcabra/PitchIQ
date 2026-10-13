@@ -11,7 +11,7 @@ services:
       # deterministic rule-based NLU (fully functional, zero cost).
       LLM_PROVIDER: "${LLM_PROVIDER:-gemini}"
       GEMINI_API_KEY: "${GEMINI_API_KEY:-}"
-      GEMINI_MODEL: "${GEMINI_MODEL:-gemini-2.0-flash}"
+      GEMINI_MODEL: "${GEMINI_MODEL:-gemini-3.6-flash}"
       CORS_ORIGINS: "http://localhost:5173,http://127.0.0.1:5173"
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')"]
